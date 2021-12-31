@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+open CMD and run : git clone https://github.com/hoangdinh2411/SF-Project-by-React-and-Redux.git 
+If you want to use firebase emulator , run on CMD : firebase emulators:start 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
