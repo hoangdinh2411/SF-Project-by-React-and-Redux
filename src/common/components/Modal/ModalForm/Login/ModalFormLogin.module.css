@@ -1,0 +1,39 @@
+form{
+    padding: 20px 0 ;
+    width: 100%;
+}
+
+.heading{
+    font-size:28px;
+    letter-spacing:0.5px;
+    text-align: center;
+}
+
+.container{
+    margin:20px ;
+    text-align: center;
+}
+
+.container p{
+    font-size:16px;
+    text-decoration: underline;
+    color:blue;
+    margin-bottom:20px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.container p:hover{
+    opacity:0.6;
+}
+
+.btnLogin{
+    background-color: darkcyan;
+    color:white;
+}
+
+.errorMessage{
+    color:red;
+    font-size:14px;
+}
+

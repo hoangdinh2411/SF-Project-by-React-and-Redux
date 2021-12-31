@@ -1,0 +1,11 @@
+.wrapper{
+    height: var(--navbar-height);
+    width: 200px;
+    text-align: center;
+}
+
+
+.image{
+    object-fit: cover;
+    height: 100%;
+}   

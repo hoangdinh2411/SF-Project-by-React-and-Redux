@@ -1,0 +1,58 @@
+.wrapper{
+    width:600px;
+    margin: 0 auto;
+}
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 0 40px 0;
+}
+.groupFieldsContainer{
+    padding:0 15px;
+
+}
+.groupFields{
+    margin-bottom:20px;
+    display:flex;
+    align-items: center;  
+}
+
+.fieldsContent{
+    width:70%;
+
+}
+
+.fieldsTitle{
+    margin-bottom:10px;
+    font-size: 24px;
+
+
+}
+
+.btnContainer{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.btnChangeProfile{
+    min-width: 30px;
+    font-size: 16px;
+}
+
+.avatarContainer{
+    width: 150px;
+    height: 200px;
+    margin: 40px auto;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.avatar{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

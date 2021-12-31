@@ -1,0 +1,19 @@
+.items{
+    display: inline-block;
+    height: var(--navbar-height);
+    line-height: var(--navbar-height);
+}
+
+.links{
+    display: block;
+    padding: 0 15px;
+    color: var(--text-secondary-color);
+    height: 100%;
+    cursor: pointer;
+}
+
+.links:hover{
+    background-color:var(--text-secondary-color);
+    color: var(--text-primary-color);
+    box-shadow: 0 5px 10px white;
+}

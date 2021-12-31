@@ -1,0 +1,38 @@
+.inputBoxes{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+    
+}
+
+.inputs{
+    border:solid 1px rgba(0,0,0,0.1);
+    outline: none;
+    padding: 5px 10px;
+    border-radius:5px;
+    height: 40px;
+}
+
+.file{
+    border:none;
+
+}
+.inputs:disabled{
+    border:none;
+    outline: none;
+    background-color:rgba(0,0,0,0.05);
+    cursor:no-drop;
+}
+
+.inputs::placeholder{
+    color: rgba(0,0,0,0.2);
+}
+
+
+.errorMessage{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size:14px;
+    color: red;
+    text-align: left;
+}

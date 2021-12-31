@@ -1,0 +1,23 @@
+.list{
+    width:100%;
+    background-color:white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.items{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.itemLinks{
+    display:block;
+    padding: 5px 10px;
+    color: var(--text-primary-color);
+}
+
+.items:hover{
+    background-color:var(--primary-color);
+}
+
+.items:hover .itemLinks{
+    color: var(--text-secondary-color);
+}

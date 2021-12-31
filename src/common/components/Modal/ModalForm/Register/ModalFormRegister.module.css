@@ -1,0 +1,30 @@
+form{
+    padding: 20px 0 ;
+    width: 100%;
+
+}
+
+.heading{
+    font-size:28px;
+    letter-spacing:0.5px;
+    text-align: center;
+}
+
+.container{
+    margin:20px ;
+    text-align: center;
+}
+
+.btnRegister{
+    background-color: darkcyan;
+    color:white;
+}
+.policyLink{
+    margin-left: 5px;
+}
+
+.errorMessage{
+    color:red;
+    font-size:14px;
+}
+

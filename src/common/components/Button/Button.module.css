@@ -1,0 +1,28 @@
+.btn{
+    cursor: pointer;
+    border:none;
+    outline:none;
+    text-decoration:none;
+    min-width:120px;
+    height: 40px;
+    border-radius: 5px;
+    line-height:40px;
+    font-size:20px;
+    font-weight:bolder;
+    letter-spacing:1px;
+    transition: all 0.3s;
+    background-color:white;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn:disabled{
+    color:#ccc;
+    cursor: no-drop;
+}
+
+.btn:disabled:hover{
+    opacity:1;
+}

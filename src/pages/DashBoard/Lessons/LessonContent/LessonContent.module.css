@@ -1,0 +1,15 @@
+.videoContainer{
+    padding: 0 80px;
+    margin-bottom: 40px;
+}
+.details{
+    padding:0 20px;
+}
+.title{
+    font-size: 28px;
+    margin-bottom:20px;
+}
+
+.description{
+    font-size:18px;
+}
